@@ -18,9 +18,16 @@ function App() {
       setIData(newArr);
     }
   };
+
+  const searching = (keyword) => {
+    if (keyword !== "") {
+      const newArr = items.filter((itms) => itms.title === keyword);
+      setIData(newArr);
+    }
+  };
   return (
     <div className="App">
-      <OurNavBar />
+      <OurNavBar searching={searching} />
       <Container>
         <Header />
         <Cat filterCate={flterCategory} allcate={allcate} />
