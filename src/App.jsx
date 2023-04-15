@@ -1,11 +1,11 @@
 import "./App.css";
 import { Container } from "react-bootstrap";
-import ourNavBar from "./components/ourNavBar";
+import OurNavBar from "./components/OurNavBar";
 
 function App() {
   return (
     <div className="App">
-      <ourNavBar />
+      <OurNavBar />
       <Container></Container>
     </div>
   );
