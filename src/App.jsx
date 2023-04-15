@@ -21,10 +21,10 @@ function App() {
   return (
     <div className="App">
       <OurNavBar />
-      <Container filterCate={flterCategory}>
+      <Container>
         <Header />
-        <Cat />
-        <ItemsList idata={idata} allcate={allcate} />
+        <Cat filterCate={flterCategory} allcate={allcate} />
+        <ItemsList idata={idata} />
       </Container>
     </div>
   );

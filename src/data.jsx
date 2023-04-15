@@ -8,7 +8,7 @@ export const items = [
     title: "وجبة عشاء",
     description: "وصف الوجبة",
     price: "1300 دج",
-    category: "افطار",
+    category: "عشاء",
     image: hrira,
   },
   {
@@ -16,7 +16,7 @@ export const items = [
     title: "وجبة غداء",
     description: "وصف الوجبة",
     price: "1100 دج",
-    category: "افطار",
+    category: "عشاء",
     image: brk,
   },
   {
@@ -32,7 +32,7 @@ export const items = [
     title: "وجبة تحلية",
     description: "وصف الوجبة",
     price: "3200 دج",
-    category: "افطار",
+    category: "تحلية",
     image: brk,
   },
   {
@@ -40,7 +40,7 @@ export const items = [
     title: "وجبة عشاء",
     description: "وصف الوجبة",
     price: "800 دج",
-    category: "افطار",
+    category: "عشاء",
     image: hrira,
   },
 ];

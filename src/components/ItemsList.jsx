@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
-import brk from "../assets/brk.jpg";
 
 const ItemsList = ({ idata }) => {
   return (

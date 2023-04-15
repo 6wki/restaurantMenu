@@ -19,6 +19,9 @@ const Category = ({ filterCate, allcate }) => {
         ) : (
           <h4>ليس هناك أي تصنيفات</h4>
         )}
+        <button className="btn mx-2" onClick={() => filtering("افطار")}>
+          افطار
+        </button>
       </Col>
     </Row>
   );
