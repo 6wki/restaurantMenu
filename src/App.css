@@ -1,6 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  background-color: #f9f5eb;
+}
+
+.theTitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #03c988;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #ffb100;
+}
+
+.simg {
+  width: 18rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.price {
+  color: #ff8800;
 }
